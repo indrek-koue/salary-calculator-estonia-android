@@ -1,0 +1,114 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/Palgafond" />
+
+    <EditText
+        android:id="@+id/EditText06"
+        style="@style/MainEditText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="..ehk tööandja kulu" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/Sotsiaalmaks" />
+
+    <EditText
+        android:id="@+id/EditText05"
+        style="@style/MainEditText" 
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Määr seisuga 2012 on 33%" />
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/Tootukindlustus" />
+
+    <EditText 
+        android:id="@+id/EditText04"
+        style="@style/MainEditText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Maksab tööandja, 1.4%" />
+
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Bruto palk" />
+
+    <EditText
+        android:id="@+id/EditText03"
+        style="@style/MainEditText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Töölepingus märgitud tasu" />
+
+    <TextView
+        android:id="@+id/textView5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Pensionisammas" />
+
+    <EditText
+        android:id="@+id/EditText02"
+        style="@style/MainEditText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Pensionisammas" />
+
+    <TextView
+        android:id="@+id/textView6"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Töötukindlustus töötaja" />
+
+    <EditText
+        android:id="@+id/EditText01"
+        style="@style/MainEditText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Töötukindlustus töötaja" />
+
+    <TextView
+        android:id="@+id/textView7"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Tulumaks" />
+
+    <EditText
+        android:id="@+id/editText2"
+        style="@style/MainEditText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="21%" />
+
+    <TextView
+        android:id="@+id/textView8"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Netopalk" />
+
+    <EditText
+        android:id="@+id/editText1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="Summa mis laekub töötaja palgakontole"
+        android:inputType="number" >
+
+        <requestFocus />
+    </EditText>
+
+</LinearLayout>
